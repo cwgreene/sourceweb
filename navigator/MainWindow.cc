@@ -274,7 +274,7 @@ void MainWindow::actionForward()
 
 void MainWindow::sourceWidgetFileChanged(File *file)
 {
-    setWindowTitle(file->path() + " - SourceWeb");
+    setWindowTitle(QDir(".").relativeFilePath(file->path()) + " - SourceWeb");
     m_folderWidget->selectFile(file);
 }
 
