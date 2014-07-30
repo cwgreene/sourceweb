@@ -3,6 +3,7 @@
 QT -= core gui
 CONFIG += static
 
+INCLUDEPATH=/usr/include/x86_64-linux-gnu/c++/4.8/
 TARGET = re2
 TEMPLATE = lib
 

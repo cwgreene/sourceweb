@@ -2,6 +2,7 @@ QT -= core gui
 CONFIG += static
 
 TARGET = indexdb
+INCLUDEPATH=/usr/include/x86_64-linux-gnu/c++/4.8/
 TEMPLATE = lib
 
 SOURCES += \

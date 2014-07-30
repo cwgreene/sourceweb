@@ -13,4 +13,5 @@ QMAKE_LINK = $$QMAKE_CC
 # but it doesn't work.
 QMAKE_LIBS_THREAD =
 
+INCLUDEPATH=/usr/include/x86_64-linux-gnu/c++/4.8/
 QMAKE_CFLAGS += -std=gnu99
