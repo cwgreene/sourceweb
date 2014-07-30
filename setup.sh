@@ -10,4 +10,4 @@ if [ ! -e "$TARGET_DIR" ]; then
     tar --strip-components=1 -xf gcc-libs-4.6.3-1-$ARCH-linux.tar.bz2
     cd ..
 fi
-./configure --with-clang-dir "$TARGET_DIR" --prefix="$HOME/bin" --with-qmake=$(which qmake)
+./configure --with-clang-dir "$TARGET_DIR" --prefix="$HOME" --with-qmake=$(which qmake)
