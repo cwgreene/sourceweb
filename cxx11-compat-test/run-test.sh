@@ -15,12 +15,14 @@ if [ $# -eq 0 ]; then
     exit 0
 fi
 
+
 SRCDIR=$(cd "$(dirname "$0")" && pwd)
 rm -fr cxx11-compat-test-build
 
 set -e -x
 mkdir cxx11-compat-test-build
 cd cxx11-compat-test-build
+echo input "$@"
 "$@" "$SRCDIR/cxx11-compat-test.pro"
 make
 set +x
