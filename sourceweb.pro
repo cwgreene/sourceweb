@@ -2,7 +2,6 @@ include(./config.pri)
 
 TEMPLATE = subdirs
 CONFIG += ordered
-INCLUDEPATH=/usr/include/x86_64-linux-gnu/c++/4.8/
 
 SUBDIRS += \
     third_party \

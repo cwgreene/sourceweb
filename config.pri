@@ -11,7 +11,6 @@
 equals(PREFIX, "") {
     PREFIX = /
 }
-INCLUDEPATH=/usr/include/x86_64-linux-gnu/c++/4.8/
 BIN_DIR = $${PREFIX}/bin
 BIN_DIR ~= s:/+:/
 LIBEXEC_DIR = $${PREFIX}/libexec

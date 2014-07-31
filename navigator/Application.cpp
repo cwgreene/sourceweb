@@ -63,7 +63,7 @@ QFont Application::sourceFont()
             #if defined(__APPLE__)
                 "Menlo", 10,
             #elif defined(__linux__) || defined(__FreeBSD__)
-                "Monospace", 12,
+                "Monospace", 8,
             #elif defined(_WIN32)
                 "Lucida Console", 8,
             #else
